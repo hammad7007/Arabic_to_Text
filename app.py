@@ -22,7 +22,7 @@ demo = gr.Interface(
     transcribe,
     ["state", gr.Audio(source="microphone", streaming=True)],
     ["state", "text"],
-    live=True,
+    live=False,
 )
 
 demo.launch()
