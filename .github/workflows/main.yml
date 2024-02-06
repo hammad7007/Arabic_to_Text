@@ -16,9 +16,9 @@ jobs:
       - name: Add remote 
         env:
           HF: ${{ secrets.ATT }}
-        run: git remote add space https://hammad4004:$ATT@huggingface.co/spaces/hammad4004/ArabicToText
+        run: git remote add space https://hammad4004:$HF@huggingface.co/spaces/hammad4004/ArabicToText
         
       - name: Push to hub
         env:
           HF: ${{ secrets.ATT }}
-        run: git push --force https://hammad4004:$ATT@huggingface.co/spaces/hammad4004/ArabicToText
+        run: git push --force https://hammad4004:$HF@huggingface.co/spaces/hammad4004/ArabicToText
