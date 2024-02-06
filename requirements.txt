@@ -1,0 +1,4 @@
+transformers==4.17.0
+torch==2.0.0
+numpy
+SoundFile==0.10.3.post1
