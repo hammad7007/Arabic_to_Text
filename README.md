@@ -1,10 +1,11 @@
 ---
-title: My Awesome Model
-emoji: 🤖
+title: Arabic Speech To Text
+emoji: 😻
 colorFrom: yellow
 colorTo: purple
-sdk: huggingface
-sdk_version: 0.0.1
+sdk: gradio
+sdk_version: 3.47.1
 app_file: app.py
 pinned: false
+license: mit
 ---
